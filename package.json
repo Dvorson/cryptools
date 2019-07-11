@@ -1,21 +1,51 @@
 {
-  "name": "ccxt-arbitrage",
-  "version": "1.0.0",
-  "description": "",
+  "name": "cryptools",
+  "version": "0.1.0",
+  "description": "Tools to support cryptocurrencies asset management",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node .",
+    "build": "webpack",
+    "build-prod": "webpack -p"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "cryptocurrencies",
+    "bitcoin",
+    "arbitrage"
+  ],
+  "author": "A. Dvorson",
   "license": "ISC",
   "dependencies": {
+    "@babel/preset-react": "^7.0.0",
+    "@material-ui/core": "^4.2.0",
+    "@material-ui/icons": "^4.2.1",
     "bignumber.js": "^9.0.0",
     "bluebird": "^3.5.5",
     "ccxt": "^1.18.901",
     "ethereumjs-abi": "^0.6.7",
     "ethereumjs-util": "^6.1.0",
+    "express": "^4.17.1",
     "lodash": "^4.17.11",
-    "web3": "^1.0.0-beta.55"
+    "moment": "^2.24.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "web3": "^1.0.0-beta.55",
+    "ws": "^7.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.0",
+    "@babel/preset-env": "^7.5.2",
+    "babel-eslint": "^10.0.2",
+    "babel-loader": "^8.0.6",
+    "eslint": "^6.0.1",
+    "eslint-config-standard": "^13.0.0",
+    "eslint-plugin-import": "^2.18.0",
+    "eslint-plugin-node": "^9.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.14.2",
+    "eslint-plugin-standard": "^4.0.0",
+    "webpack": "^4.35.3",
+    "webpack-cli": "^3.3.5"
   }
 }
