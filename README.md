@@ -1,6 +1,6 @@
 # Cryptools
 
-> An arbitrage tool based on awesome [ccxt][https://github.com/ccxt/ccxt]. Query ~55 exchanges to get about 2000 common pairs and calculate quote differencies to get best arbitrage opportunities
+> An arbitrage tool based on awesome [ccxt](https://github.com/ccxt/ccxt). Query ~55 exchanges to get about 2000 common pairs and calculate quote differencies to get best arbitrage opportunities
 
 ![](screenshot.jpg)
 
