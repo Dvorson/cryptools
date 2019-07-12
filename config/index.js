@@ -1,4 +1,5 @@
-const secrets = require('../.secret');
+const fs = require('fs');
+const secrets = fs.existsSync('../.secret') ? require('../.secret') : {};
 
 module.exports = {
 	exchanges: {
